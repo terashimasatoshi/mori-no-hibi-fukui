@@ -61,29 +61,35 @@ export default function App() {
         </div>
       </section>
 
-      {/* YouTube Video Section */}
-      <section className="max-w-3xl mx-auto px-6 py-16 md:py-20">
-        <h2 
-          className="text-center mb-8 md:mb-12"
-          style={{ 
-            fontFamily: "'Playfair Display', serif",
-            color: '#2C3E50',
-            fontSize: 'clamp(1.5rem, 4vw, 2rem)',
-            lineHeight: '1.3'
-          }}
-        >
-          施術の様子
-        </h2>
-        <div className="relative w-full overflow-hidden rounded-lg shadow-xl" style={{ paddingBottom: '56.25%' }}>
-          <iframe
-            className="absolute top-0 left-0 w-full h-full"
-            src="https://www.youtube.com/embed/M3Kl8u49m3Y?si=JMnOfgVgjQ9dn-Rj"
-            title="森の日々 福井店 - 施術の様子"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
-            allowFullScreen
-          />
+      {/* YouTube Link Section */}
+      <section className="max-w-3xl mx-auto px-6 py-12">
+        <div className="flex justify-center">
+          <a
+            href="https://www.youtube.com/watch?v=M3Kl8u49m3Y"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-3 px-8 py-4 rounded-lg transition-all hover:opacity-80"
+            style={{
+              backgroundColor: '#FF0000',
+              color: '#FFFFFF',
+              fontFamily: "'Noto Sans JP', sans-serif",
+              fontSize: '1rem',
+              fontWeight: '600',
+              textDecoration: 'none',
+              boxShadow: '0 4px 12px rgba(255, 0, 0, 0.3)',
+            }}
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+            >
+              <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+            </svg>
+            施術の様子を見る
+          </a>
         </div>
       </section>
 
@@ -196,7 +202,7 @@ export default function App() {
                 letterSpacing: '0.02em'
               }}
             >
-              マッサージ介入により「寝つきが良くなった」「熟睡できた」と感������る人が増加しています。質の高い睡眠は、心身の回復に欠かせません。
+              マッサージ介入により「寝つきが良くなった」「熟睡できた」と感じる人が増加しています。質の高い睡眠は、心身の回復に欠かせません。
             </p>
           </div>
           <div className="p-6 md:p-8 rounded-lg" style={{ backgroundColor: '#FFFFFF' }}>
@@ -364,7 +370,7 @@ export default function App() {
               letterSpacing: '0.02em'
             }}
           >
-            温かい手のひら���包み込むようにケアすることで、めぐりと深呼吸が同時に整います。施術後の軽やかさを、ぜひ体感してください。
+            温かい手のひら全体で包み込むようにケアすることで、
           </p>
         </div>
       </section>
@@ -493,7 +499,7 @@ export default function App() {
                 letterSpacing: '0.02em'
               }}
             >
-              施術を受けた夜は、驚くほど深く眠れました。朝起きた時の「頭が軽い」という感覚が忘れられません。デスクワークで凝り固まった首や肩も、施術後はほぐれてい��感じがして、視界まで明るくなったような気がします。
+              施術を受けた夜は、驚くほど深く眠れました。朝起きた時の「頭が軽い」という感覚が忘れられません。デスクワークで凝り固まった首や肩も、施術後はほぐれている感じがして、視界まで明るくなったような気がします。
             </p>
           </div>
           <div className="p-6 md:p-8 rounded-lg" style={{ backgroundColor: '#FFFFFF' }}>
@@ -670,7 +676,7 @@ export default function App() {
                 letterSpacing: '0.02em'
               }}
             >
-              水素の力で酸化ストレスをケアし、髪の内側から補修。艶やかで健やかな髪質へと���きます。髪のダメージが気になる方に。
+          水素の力で酸化ストレスをケアし、髪の内側から補修。艶やかで健やかな髪質へと導きます。髪のダメージが気になる方に。
             </p>
           </div>
         </div>
@@ -871,24 +877,20 @@ export default function App() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 px-8 py-4 rounded-full transition-all hover:scale-105 hover:shadow-xl"
               style={{
-                backgroundColor: '#E1306C',
-                color: '#FFFFFF',
+                backgroundColor: '#FFFFFF',
+                color: '#262626',
                 fontFamily: "'Noto Sans JP', sans-serif",
                 fontSize: '1rem',
                 fontWeight: '600',
                 textDecoration: 'none',
-                boxShadow: '0 4px 12px rgba(225, 48, 108, 0.3)',
+                border: '2px solid #DBDBDB',
               }}
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-              >
-                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
-              </svg>
+              <img 
+                src="/instagram-icon.svg" 
+                alt="Instagram" 
+                style={{ width: '24px', height: '24px' }}
+              />
               Instagramをフォロー
             </a>
           </div>
@@ -954,7 +956,7 @@ export default function App() {
                 letterSpacing: '0.02em'
               }}
             >
-              ・2018年：炭酸浴による血流促進の実験（国内大学）
+          • 2018年：炭酸浴による血流促進の実験（国内大学）
             </li>
             <li 
               style={{ 
