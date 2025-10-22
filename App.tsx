@@ -62,35 +62,22 @@ export default function App() {
       </section>
 
       {/* YouTube Link Section */}
-      <section className="max-w-3xl mx-auto px-6 py-12">
-        <div className="flex justify-center">
-          <a
-            href="https://www.youtube.com/watch?v=M3Kl8u49m3Y"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-3 px-8 py-4 rounded-lg transition-all hover:opacity-80"
-            style={{
-              backgroundColor: '#FF0000',
-              color: '#FFFFFF',
-              fontFamily: "'Noto Sans JP', sans-serif",
-              fontSize: '1rem',
-              fontWeight: '600',
-              textDecoration: 'none',
-              boxShadow: '0 4px 12px rgba(255, 0, 0, 0.3)',
-            }}
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="currentColor"
-            >
-              <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
-            </svg>
-            施術の様子を見る
-          </a>
-        </div>
+      <section className="max-w-3xl mx-auto px-6 py-8 text-center">
+        <a
+          href="https://www.youtube.com/watch?v=M3Kl8u49m3Y"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="transition-all hover:opacity-70"
+          style={{
+            fontFamily: "'Noto Sans JP', sans-serif",
+            color: '#2C3E50',
+            fontSize: '1rem',
+            textDecoration: 'underline',
+            letterSpacing: '0.05em',
+          }}
+        >
+          施術の様子を見る
+        </a>
       </section>
 
       {/* Decorative Divider */}
@@ -870,26 +857,24 @@ export default function App() {
             </button>
           </div>
           {/* Instagram Link */}
-          <div className="mt-8 flex justify-center">
+          <div className="mt-8 text-center">
             <a
               href="https://www.instagram.com/morinohibi_spa/"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-3 px-8 py-4 rounded-full transition-all hover:scale-105 hover:shadow-xl"
+              className="inline-flex items-center gap-2 transition-all hover:opacity-70"
               style={{
-                backgroundColor: '#FFFFFF',
-                color: '#262626',
                 fontFamily: "'Noto Sans JP', sans-serif",
+                color: '#2C3E50',
                 fontSize: '1rem',
-                fontWeight: '600',
-                textDecoration: 'none',
-                border: '2px solid #DBDBDB',
+                textDecoration: 'underline',
+                letterSpacing: '0.05em',
               }}
             >
               <img 
                 src="/instagram-icon.svg" 
                 alt="Instagram" 
-                style={{ width: '24px', height: '24px' }}
+                style={{ width: '20px', height: '20px' }}
               />
               Instagramをフォロー
             </a>
