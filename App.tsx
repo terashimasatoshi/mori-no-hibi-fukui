@@ -843,18 +843,22 @@ export default function App() {
             >
               AIでメニューを診断
             </a>
-            <button 
-              className="w-full sm:w-auto px-6 py-2.5 rounded-lg transition-all hover:opacity-80 text-center" 
+            <a 
+              href="https://beauty.hotpepper.jp/slnH000771707/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full sm:w-auto px-6 py-2.5 rounded-lg transition-all hover:opacity-80 text-center inline-block" 
               style={{ 
                 backgroundColor: '#2C3E50',
                 color: '#FFFFFF',
                 fontFamily: "'Noto Sans JP', sans-serif",
                 fontSize: '0.9rem',
-                letterSpacing: '0.05em'
+                letterSpacing: '0.05em',
+                textDecoration: 'none'
               }}
             >
               予約する
-            </button>
+            </a>
           </div>
           {/* Instagram Link */}
           <div className="mt-8 flex justify-center">
