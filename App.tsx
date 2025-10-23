@@ -857,7 +857,7 @@ export default function App() {
             </button>
           </div>
           {/* Instagram Link */}
-          <div className="mt-8 text-center">
+          <div className="mt-8 flex justify-center">
             <a
               href="https://www.instagram.com/morinohibi_spa/"
               target="_blank"
